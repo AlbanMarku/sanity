@@ -25,6 +25,11 @@ export default {
       title: 'Avatar',
     },
     {
+      name: 'profile',
+      type: 'image',
+      title: 'Profile',
+    },
+    {
       name: 'basicAttacks',
       type: 'array',
       title: 'Basic Attacks',
@@ -42,6 +47,17 @@ export default {
             {type: 'number', name: 'damageHit'},
             {type: 'number', name: 'damageBlock'},
             {type: 'boolean', name: 'airOk'},
+            {
+              name: 'attackType',
+              type: 'array',
+              title: 'Attack Type',
+              of: [
+                {
+                  type: 'reference',
+                  to: [{type: 'attackType'}],
+                },
+              ],
+            },
             {
               type: 'object',
               name: 'attackInput',

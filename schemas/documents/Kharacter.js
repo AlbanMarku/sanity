@@ -46,36 +46,19 @@ export default {
             {type: 'number', name: 'flawlessBlockAdv'},
             {type: 'number', name: 'damageHit'},
             {type: 'number', name: 'damageBlock'},
+            {type: 'number', name: 'recovery'},
+            {type: 'number', name: 'cancelAdv'},
             {type: 'boolean', name: 'airOk'},
             {
               name: 'attackType',
-              type: 'array',
+              type: 'reference',
               title: 'Attack Type',
-              of: [
-                {
-                  type: 'reference',
-                  to: [{type: 'attackType'}],
-                },
-              ],
+              to: [{type: 'attackType'}],
             },
             {
-              type: 'object',
+              type: 'attackInput',
               name: 'attackInput',
               title: 'Attack Input',
-              fields: [
-                {
-                  type: 'number',
-                  name: 'direction',
-                  title: 'Direction',
-                  description: 'numpad notation',
-                },
-                {
-                  type: 'number',
-                  name: 'button',
-                  title: 'Button',
-                  description: 'NRS button layout',
-                },
-              ],
             },
           ],
         },

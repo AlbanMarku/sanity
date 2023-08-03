@@ -56,9 +56,10 @@ export default {
               to: [{type: 'attackType'}],
             },
             {
-              type: 'attackInput',
-              name: 'attackInput',
-              title: 'Attack Input',
+              type: 'array',
+              name: 'attackInputs',
+              title: 'Attack Inputs',
+              of: [{type: 'attackInput'}],
             },
           ],
         },
@@ -135,6 +136,11 @@ export default {
           ],
         },
       ],
+    },
+    {
+      name: 'guide',
+      type: 'guide',
+      title: 'Guide',
     },
   ],
 }

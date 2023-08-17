@@ -6,7 +6,7 @@ export default {
     {
       name: 'overview',
       title: 'Overview',
-      type: 'text',
+      type: 'overview',
     },
     {
       name: 'strategy',

@@ -9,17 +9,6 @@ export default {
       title: 'Name',
     },
     {
-      name: 'archetype',
-      type: 'array',
-      title: 'Archetype',
-      of: [
-        {
-          type: 'reference',
-          to: [{type: 'archetype'}],
-        },
-      ],
-    },
-    {
       name: 'avatar',
       type: 'image',
       title: 'Avatar',

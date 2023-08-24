@@ -58,5 +58,10 @@ export default {
         },
       ],
     },
+    {
+      name: 'guide',
+      title: 'Guide',
+      type: 'guide',
+    },
   ],
 }

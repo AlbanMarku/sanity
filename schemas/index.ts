@@ -6,5 +6,6 @@ import guide from "./objects/Guide"
 import strategy from "./objects/Strategy"
 import overview from "./objects/Overview"
 import kameo from "./documents/Kameo"
+import lesson from "./documents/Lesson"
 //TODO: Validate data.
-export const schemaTypes = [kharacter, archetype, attackType, attackInput, guide, strategy, overview, kameo]
+export const schemaTypes = [kharacter, archetype, attackType, attackInput, guide, strategy, overview, kameo, lesson]

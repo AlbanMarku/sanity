@@ -4,8 +4,8 @@ export default {
   title: 'Lesson',
   fields: [
     {
-      name: 'content',
-      Title: 'content',
+      name: 'name',
+      Title: 'Name',
       type: 'string',
     },
     {
@@ -15,25 +15,8 @@ export default {
       of: [
         {
           name: 'advice',
-          type: 'object',
+          type: 'advice',
           title: 'Advice',
-          fields: [
-            {
-              name: 'adviceTitle',
-              type: 'string',
-              title: 'Advice Title',
-            },
-            {
-              name: 'adviceInfo',
-              type: 'text',
-              title: 'Advice Info',
-            },
-            {
-              name: 'videoUrl',
-              type: 'url',
-              title: 'Video Url',
-            },
-          ],
         },
       ],
     },
@@ -44,25 +27,8 @@ export default {
       of: [
         {
           name: 'advice',
-          type: 'object',
+          type: 'advice',
           title: 'Advice',
-          fields: [
-            {
-              name: 'adviceTitle',
-              type: 'string',
-              title: 'Advice Title',
-            },
-            {
-              name: 'adviceInfo',
-              type: 'text',
-              title: 'Advice Info',
-            },
-            {
-              name: 'videoUrl',
-              type: 'url',
-              title: 'Video Url',
-            },
-          ],
         },
       ],
     },
@@ -73,25 +39,8 @@ export default {
       of: [
         {
           name: 'advice',
-          type: 'object',
+          type: 'advice',
           title: 'Advice',
-          fields: [
-            {
-              name: 'adviceTitle',
-              type: 'string',
-              title: 'Advice Title',
-            },
-            {
-              name: 'adviceInfo',
-              type: 'text',
-              title: 'Advice Info',
-            },
-            {
-              name: 'videoUrl',
-              type: 'url',
-              title: 'Video Url',
-            },
-          ],
         },
       ],
     },

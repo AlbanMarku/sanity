@@ -3,8 +3,19 @@ export default {
   type: 'object',
   title: 'Attack Input',
   fields: [
-    {name: 'direction', type: 'number', title: 'Direction'},
-    {name: 'button', type: 'number', title: 'Button'},
+    {
+      name: 'direction',
+      type: 'number',
+      title: 'Direction',
+      description: 'Numpad notation. 4 = back, 5 = neutral, 6 = forward, 2 = down, 8 = up',
+    },
+    {
+      name: 'button',
+      type: 'number',
+      title: 'Button',
+      description:
+        'NRS notation. 1 = fp, 2 = bp, 3 = fk, 4 = bk, 0 = no direction, 5 = enhance, 6 = prev button held, 7 = assist',
+    },
   ],
   preview: {
     select: {

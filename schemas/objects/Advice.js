@@ -14,19 +14,16 @@ export default {
       title: 'Advice Thumbnail',
     },
     {
-      name: 'adviceInfo',
-      type: 'text',
-      title: 'Advice Info',
-    },
-    {
-      name: 'videoHeader',
-      type: 'string',
-      title: 'Video Header',
-    },
-    {
-      name: 'videoUrl',
-      type: 'url',
-      title: 'Video Url',
+      name: 'adviceContent',
+      type: 'array',
+      title: 'Advice Content',
+      of: [
+        {
+          name: 'adviceInfo',
+          type: 'adviceInfo',
+          title: 'Advice Info',
+        },
+      ],
     },
   ],
 }

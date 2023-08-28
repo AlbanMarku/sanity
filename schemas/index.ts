@@ -8,5 +8,6 @@ import overview from "./objects/Overview"
 import kameo from "./documents/Kameo"
 import lesson from "./documents/Lesson"
 import advice from "./objects/Advice"
+import adviceInfo from "./objects/AdviceInfo"
 //TODO: Validate data.
-export const schemaTypes = [kharacter, archetype, attackType, attackInput, guide, strategy, overview, kameo, lesson, advice]
+export const schemaTypes = [kharacter, archetype, attackType, attackInput, guide, strategy, overview, kameo, lesson, advice, adviceInfo]

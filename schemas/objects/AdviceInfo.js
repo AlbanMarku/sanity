@@ -23,5 +23,15 @@ export default {
       type: 'url',
       title: 'Video Url',
     },
+    {
+      name: 'imageDescription',
+      type: 'string',
+      title: 'Image Description',
+    },
+    {
+      name: 'imageUrl',
+      type: 'url',
+      title: 'Image Url',
+    },
   ],
 }
